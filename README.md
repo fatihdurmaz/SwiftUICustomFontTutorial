@@ -4,17 +4,16 @@
 ![Platform](https://img.shields.io/badge/SwiftUI-5-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-1. Font dosyalarını projemize import ederek, Info.Plist dosyasında tanımlıyoruz.
-    
-    > ***Fonts provided by application*** anahtarının altına fontun tüm varyasyonlarını (bold, italic vs) dosya uzantısını da içerecek şekilde eklemeliyiz.
+1. We import the font files into our project and define them in the Info.plist file.
+    > ***Fonts provided by application*** We should add all variations of the font (bold, italic, etc.) along with their file extensions under the key.
     > 
-2. Uygulama genelinde font değiştirmek için **\.font environment** kullanıyoruz.
+2. We use the .font environment to change the font across the application.
     
     ```swift
     ContentView()
         .environment(\.font, Font.custom("Ubuntu", size: 17)
         // size: UIFont.preferredFont(forTextStyle: .body).pointSize)
-        // varsayılann body font boyutunu da kullanabiliriz.
+        // We can also use the default body font size.
     }
     ```
     
