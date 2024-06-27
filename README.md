@@ -20,7 +20,7 @@
 3. Navigation Bar Font
     
     ```swift
-    init{ // App dosyasında
+    init() { // App dosyasında
     	let navBarAppearance = UINavigationBarAppearance()
     	navBarAppearance.largeTitleTextAttributes = [.font: UIFont(name: "Ubuntu-Regular", size: UIFont.preferredFont(forTextStyle: .largeTitle).pointSize)!] // default
     	navBarAppearance.titleTextAttributes = [.font: UIFont(name: "Ubuntu-Regular", size: UIFont.preferredFont(forTextStyle: .headline).pointSize)!] // default
