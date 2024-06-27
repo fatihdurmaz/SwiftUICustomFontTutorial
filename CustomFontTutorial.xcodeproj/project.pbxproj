@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE023D9F2C2D5FFB00CB1122 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE023D972C2D5FFA00CB1122 /* Ubuntu-Medium.ttf */; };
+		DE023DA02C2D5FFB00CB1122 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE023D982C2D5FFA00CB1122 /* Ubuntu-LightItalic.ttf */; };
+		DE023DA12C2D5FFB00CB1122 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE023D992C2D5FFA00CB1122 /* Ubuntu-Bold.ttf */; };
+		DE023DA22C2D5FFB00CB1122 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE023D9A2C2D5FFA00CB1122 /* Ubuntu-Italic.ttf */; };
+		DE023DA32C2D5FFB00CB1122 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE023D9B2C2D5FFA00CB1122 /* Ubuntu-Regular.ttf */; };
+		DE023DA42C2D5FFB00CB1122 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE023D9C2C2D5FFA00CB1122 /* Ubuntu-BoldItalic.ttf */; };
+		DE023DA52C2D5FFB00CB1122 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE023D9D2C2D5FFA00CB1122 /* Ubuntu-MediumItalic.ttf */; };
+		DE023DA62C2D5FFB00CB1122 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE023D9E2C2D5FFB00CB1122 /* Ubuntu-Light.ttf */; };
+		DE6B50642C2D774C002953B9 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B50632C2D774C002953B9 /* Font+Extension.swift */; };
 		DE95234D2C298B620097C273 /* CustomFontTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95234C2C298B620097C273 /* CustomFontTutorialApp.swift */; };
 		DE95234F2C298B620097C273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95234E2C298B620097C273 /* ContentView.swift */; };
 		DE9523512C298B630097C273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9523502C298B630097C273 /* Assets.xcassets */; };
 		DE9523542C298B630097C273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9523532C298B630097C273 /* Preview Assets.xcassets */; };
+		DE95236D2C29B1260097C273 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95236C2C29B1260097C273 /* DetailView.swift */; };
+		DEC398022C2AEEE900F9DDE2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC398012C2AEEE900F9DDE2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE023D972C2D5FFA00CB1122 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		DE023D982C2D5FFA00CB1122 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		DE023D992C2D5FFA00CB1122 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		DE023D9A2C2D5FFA00CB1122 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		DE023D9B2C2D5FFA00CB1122 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		DE023D9C2C2D5FFA00CB1122 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DE023D9D2C2D5FFA00CB1122 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DE023D9E2C2D5FFB00CB1122 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		DE267AC42C2D6094008B6773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DE6B50632C2D774C002953B9 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		DE9523492C298B620097C273 /* CustomFontTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFontTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE95234C2C298B620097C273 /* CustomFontTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTutorialApp.swift; sourceTree = "<group>"; };
 		DE95234E2C298B620097C273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE9523502C298B630097C273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9523532C298B630097C273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE95236C2C29B1260097C273 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DEC398012C2AEEE900F9DDE2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE023D962C2D5FC100CB1122 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE023D992C2D5FFA00CB1122 /* Ubuntu-Bold.ttf */,
+				DE023D9C2C2D5FFA00CB1122 /* Ubuntu-BoldItalic.ttf */,
+				DE023D9A2C2D5FFA00CB1122 /* Ubuntu-Italic.ttf */,
+				DE023D9E2C2D5FFB00CB1122 /* Ubuntu-Light.ttf */,
+				DE023D982C2D5FFA00CB1122 /* Ubuntu-LightItalic.ttf */,
+				DE023D972C2D5FFA00CB1122 /* Ubuntu-Medium.ttf */,
+				DE023D9D2C2D5FFA00CB1122 /* Ubuntu-MediumItalic.ttf */,
+				DE023D9B2C2D5FFA00CB1122 /* Ubuntu-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DE9523402C298B620097C273 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +89,14 @@
 		DE95234B2C298B620097C273 /* CustomFontTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DE267AC42C2D6094008B6773 /* Info.plist */,
+				DE023D962C2D5FC100CB1122 /* Resources */,
 				DE95234C2C298B620097C273 /* CustomFontTutorialApp.swift */,
 				DE95234E2C298B620097C273 /* ContentView.swift */,
+				DE95236C2C29B1260097C273 /* DetailView.swift */,
+				DE6B50632C2D774C002953B9 /* Font+Extension.swift */,
 				DE9523502C298B630097C273 /* Assets.xcassets */,
+				DEC398012C2AEEE900F9DDE2 /* Launch Screen.storyboard */,
 				DE9523522C298B630097C273 /* Preview Content */,
 			);
 			path = CustomFontTutorial;
@@ -125,7 +168,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE023DA32C2D5FFB00CB1122 /* Ubuntu-Regular.ttf in Resources */,
+				DE023DA02C2D5FFB00CB1122 /* Ubuntu-LightItalic.ttf in Resources */,
+				DE023DA52C2D5FFB00CB1122 /* Ubuntu-MediumItalic.ttf in Resources */,
+				DE023DA42C2D5FFB00CB1122 /* Ubuntu-BoldItalic.ttf in Resources */,
+				DE023DA62C2D5FFB00CB1122 /* Ubuntu-Light.ttf in Resources */,
 				DE9523542C298B630097C273 /* Preview Assets.xcassets in Resources */,
+				DE023DA12C2D5FFB00CB1122 /* Ubuntu-Bold.ttf in Resources */,
+				DE023DA22C2D5FFB00CB1122 /* Ubuntu-Italic.ttf in Resources */,
+				DEC398022C2AEEE900F9DDE2 /* Launch Screen.storyboard in Resources */,
+				DE023D9F2C2D5FFB00CB1122 /* Ubuntu-Medium.ttf in Resources */,
 				DE9523512C298B630097C273 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE95234F2C298B620097C273 /* ContentView.swift in Sources */,
+				DE95236D2C29B1260097C273 /* DetailView.swift in Sources */,
+				DE6B50642C2D774C002953B9 /* Font+Extension.swift in Sources */,
 				DE95234D2C298B620097C273 /* CustomFontTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,9 +329,12 @@
 				DEVELOPMENT_TEAM = 5RM3B24YU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontTutorial/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Custom Font";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,9 +361,12 @@
 				DEVELOPMENT_TEAM = 5RM3B24YU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomFontTutorial/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Custom Font";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
