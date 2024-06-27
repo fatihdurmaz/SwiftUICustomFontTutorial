@@ -4,6 +4,9 @@
 ![Platform](https://img.shields.io/badge/SwiftUI-5-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+[![SwiftUI Custom Font Tutorial](https://img.youtube.com/vi/D5P8c45e_3M/0.jpg)](https://www.youtube.com/watch?v=D5P8c45e_3M)
+
+
 1. We import the font files into our project and define them in the Info.plist file.
     > ***Fonts provided by application*** We should add all variations of the font (bold, italic, etc.) along with their file extensions under the key.
     > 
